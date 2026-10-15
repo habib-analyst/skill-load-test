@@ -1,0 +1,246 @@
+{
+ "config": {
+  "sizes": [
+   4,
+   20,
+   100
+  ],
+  "router": "tfidf",
+  "topk_shortlist": 3,
+  "recall_k_wide": 10,
+  "max_loads": 3,
+  "tau_quantile": 0.25,
+  "distractor_strategy": "franchise",
+  "seed": 7,
+  "n_golden": 4,
+  "pool_size": 18
+ },
+ "tau": 0.2833,
+ "scales": {
+  "4": {
+   "catalog_size": 4,
+   "n_tasks": 4,
+   "tau": 0.2833,
+   "recall@1": 1.0,
+   "recall@3": 1.0,
+   "recall@10": 1.0,
+   "loaded_rate": 0.75,
+   "zero_load_rate": 0.25,
+   "mean_loads": 0.75,
+   "taxonomy_counts": {
+    "ok": 3,
+    "outranked": 0,
+    "skipped": 1,
+    "buried": 0
+   },
+   "rows": [
+    {
+     "task": "clinic-01",
+     "skill": "find-doctor",
+     "rank": 1,
+     "score": 0.2256,
+     "loaded": false,
+     "zero_load": true,
+     "n_loads": 0,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "skipped",
+     "gap_at_smallest": true
+    },
+    {
+     "task": "clinic-02",
+     "skill": "book-appointment",
+     "rank": 1,
+     "score": 0.2833,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-03",
+     "skill": "reschedule-appointment",
+     "rank": 1,
+     "score": 0.6683,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-04",
+     "skill": "cancel-appointment",
+     "rank": 1,
+     "score": 0.3506,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    }
+   ]
+  },
+  "20": {
+   "catalog_size": 20,
+   "n_tasks": 4,
+   "tau": 0.2833,
+   "recall@1": 1.0,
+   "recall@3": 1.0,
+   "recall@10": 1.0,
+   "loaded_rate": 1.0,
+   "zero_load_rate": 0.0,
+   "mean_loads": 1.25,
+   "taxonomy_counts": {
+    "ok": 4,
+    "outranked": 0,
+    "skipped": 0,
+    "buried": 0
+   },
+   "rows": [
+    {
+     "task": "clinic-01",
+     "skill": "find-doctor",
+     "rank": 1,
+     "score": 0.2847,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": true
+    },
+    {
+     "task": "clinic-02",
+     "skill": "book-appointment",
+     "rank": 1,
+     "score": 0.3322,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-03",
+     "skill": "reschedule-appointment",
+     "rank": 1,
+     "score": 0.6408,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 2,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-04",
+     "skill": "cancel-appointment",
+     "rank": 1,
+     "score": 0.381,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    }
+   ]
+  },
+  "100": {
+   "catalog_size": 100,
+   "n_tasks": 4,
+   "tau": 0.2833,
+   "recall@1": 1.0,
+   "recall@3": 1.0,
+   "recall@10": 1.0,
+   "loaded_rate": 1.0,
+   "zero_load_rate": 0.0,
+   "mean_loads": 2.0,
+   "taxonomy_counts": {
+    "ok": 4,
+    "outranked": 0,
+    "skipped": 0,
+    "buried": 0
+   },
+   "rows": [
+    {
+     "task": "clinic-01",
+     "skill": "find-doctor",
+     "rank": 1,
+     "score": 0.3229,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": true
+    },
+    {
+     "task": "clinic-02",
+     "skill": "book-appointment",
+     "rank": 1,
+     "score": 0.3423,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 3,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-03",
+     "skill": "reschedule-appointment",
+     "rank": 1,
+     "score": 0.6029,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 3,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    },
+    {
+     "task": "clinic-04",
+     "skill": "cancel-appointment",
+     "rank": 1,
+     "score": 0.3554,
+     "loaded": true,
+     "zero_load": false,
+     "n_loads": 1,
+     "hit1": true,
+     "hit3": true,
+     "hit10": true,
+     "taxonomy": "ok",
+     "gap_at_smallest": false
+    }
+   ]
+  }
+ }
+}

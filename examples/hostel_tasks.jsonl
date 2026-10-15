@@ -1,0 +1,14 @@
+{"id": "hostel-01", "utterance": "assalam o alaikum, I just arrived and need some help", "golden": ["greeting"]}
+{"id": "hostel-02", "utterance": "is there a room free for two nights starting Friday", "golden": ["check-availability"]}
+{"id": "hostel-03", "utterance": "please book a room for me, the deluxe one for the weekend", "golden": ["book-room"]}
+{"id": "hostel-04", "utterance": "I need to cancel my booking for next week", "golden": ["cancel-booking"]}
+{"id": "hostel-05", "utterance": "can I change my booking dates to next month instead", "golden": ["modify-booking"]}
+{"id": "hostel-06", "utterance": "hi, I have a reservation, I would like to check in now", "golden": ["check-in"]}
+{"id": "hostel-07", "utterance": "I am leaving today, please check me out and settle the bill", "golden": ["check-out"]}
+{"id": "hostel-08", "utterance": "can I get a late checkout today, maybe until 2pm", "golden": ["late-checkout"]}
+{"id": "hostel-09", "utterance": "please send housekeeping to clean my room", "golden": ["housekeeping"]}
+{"id": "hostel-10", "utterance": "how do I pay for my stay, do you take cards", "golden": ["payment-info"]}
+{"id": "hostel-11", "utterance": "the AC in my room is not working, this is a complaint", "golden": ["complaint"]}
+{"id": "hostel-12", "utterance": "where can I leave a review of my stay here", "golden": ["review"]}
+{"id": "hostel-13", "utterance": "send me the daily owner digest with occupancy numbers", "golden": ["owner-digest"]}
+{"id": "hostel-14", "utterance": "approve the pending proposal for the lobby renovation", "golden": ["owner-approve"]}

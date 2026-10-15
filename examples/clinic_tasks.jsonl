@@ -1,0 +1,4 @@
+{"id": "clinic-01", "utterance": "find a doctor, is there a cardiologist available on Monday", "golden": ["find-doctor"]}
+{"id": "clinic-02", "utterance": "book an appointment, I want to see Dr Ahmed tomorrow", "golden": ["book-appointment"]}
+{"id": "clinic-03", "utterance": "I need to move my appointment to a new day and time", "golden": ["reschedule-appointment"]}
+{"id": "clinic-04", "utterance": "cancel my appointment, I cannot come tomorrow", "golden": ["cancel-appointment"]}
